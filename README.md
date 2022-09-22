@@ -1,6 +1,6 @@
 # Portfolio-setup
 
-> My first project at microverse with a simple message "Hello Microverse"
+> My second project at microverse, building a personal portfolio
 
 ## Built With
 
