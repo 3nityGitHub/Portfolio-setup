@@ -19,17 +19,23 @@ header {
   top: 0;
 }
 
-.nav_menu {
-  align-items: flex-end;
+.nav_menu_bar {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background: #3c3a39;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .name_link {
   display: flex;
   color: antiquewhite;
+  justify-items: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 35px;
+  margin-top: 15px;
   font-family: 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: bold;
@@ -88,17 +94,67 @@ header {
 }
 
 .nav_menu2 {
-  width: 63px;
-  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+  border: 1px solid white;
+  padding: 0px;
+}
+
+.nav_menu2 > a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  color: #fff;
+  text-align: center;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.mail {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.name_link,
+.nav_menu2 > a:hover {
+  transform: scale(1.05);
+}
+
+.intro_section_2 {
+  order: 1;
+  width: 10%;
+  height: 100%;
+  align-self: top;
+}
+
+.socialmedia_logo {
+  top: 50%;
+  left: 3.5%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 0 0 0;
+  row-gap: 25px;
+  list-style: none;
+}
+
+.socialmedia_logo > li {
+  width: 20px;
+  height: 20px;
+}
+
+.side_img_container {
+  width: 85%;
+  height: 80%;
+  top: 40%;
+  right: 2%;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
 }
