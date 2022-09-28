@@ -31,15 +31,15 @@ header {
 
 .name_link {
   display: flex;
-  color: antiquewhite;
-  justify-items: center;
-  align-items: center;
-  margin-left: 35px;
+  justify-items: flex-start;
+  align-items: left;
+  margin-left: 5px;
   margin-top: 15px;
   font-family: 'Courier New', Courier, monospace;
+  color: antiquewhite;
   font-style: normal;
   font-weight: bold;
-  text-decoration: none;
+  font-size: 17px;
 }
 
 .intro_page {
@@ -94,34 +94,43 @@ header {
 }
 
 .nav_menu2 {
+  width: 90%;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-between;
   align-items: right;
-  border: 1px solid white;
-  padding: 0px;
+  padding: 0;
 }
 
 .nav_menu2 > a {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  color: #fff;
-  text-align: center;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  text-align: right;
   margin-right: 50px;
   margin-top: 15px;
 }
+.nav_menu2 a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
 
 .mail {
-  width: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
   height: 20px;
   margin-top: 15px;
 }
 
-.name_link,
-.nav_menu2 > a:hover {
+.mail > a:hover {
+  transform: scale(1.05);
+}
+
+.name_link:hover {
   transform: scale(1.05);
 }
 
@@ -157,4 +166,26 @@ header {
   display: flex;
   position: absolute;
   justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .main_header {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .sub_header {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .intro_paragraph {
+    font-size: 20px;
+    line-height: 35px;
+  }
 }
