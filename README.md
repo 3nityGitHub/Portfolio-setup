@@ -16,8 +16,8 @@
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/3nityGitHub)
-- Twitter: [@twitterhandle](https://twitter.com/tbarijohnson)
+- GitHub: (https://github.com/3nityGitHub)
+- Twitter: (https://twitter.com/tbarijohnson)
 
 ## 🤝 Contributing
 
