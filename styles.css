@@ -1,13 +1,16 @@
 body {
   background-color: #1c1a19;
   margin: 0;
+}
+
+.first_section_div {
+  height: auto;
   width: 347px;
 }
 
 header {
   background-color: #3c3a39;
 }
-
 #main_section {
   margin-top: 80px;
 }
@@ -24,7 +27,7 @@ header {
 }
 
 .name_logo a {
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   font-family: 'Poppins', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
@@ -96,4 +99,15 @@ a:hover {
 .social_media_link {
   display: inline;
   margin-right: 15px;
+}
+
+.intro_text {
+  color: #fff;
+}
+.side_image {
+  position: absolute;
+  width: 108.504%;
+  aspect-ratio: 406.89 / 312.03;
+  left: 50%;
+  top: 50%;
 }
