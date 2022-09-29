@@ -1,11 +1,13 @@
 body {
   background-color: #1c1a19;
   margin: 0;
+  width: 100%;
+  aspect-ratio: 375/5410;
+  overflow-x: hidden;
 }
 
 .first_section_div {
   height: auto;
-  width: 347px;
 }
 
 header {
@@ -23,7 +25,8 @@ header {
   color: #acb7c3;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 90%;
+  aspect-ratio: 375/92;
   margin: auto;
 }
 
