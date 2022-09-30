@@ -1,5 +1,5 @@
 body {
-  background-color: #1c1a19;
+  background-color: rgb(9, 9, 9);
   margin: 0;
   width: 100%;
   aspect-ratio: 375/5410;
@@ -15,7 +15,7 @@ header {
 }
 
 #main_section {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .nav_bar {
@@ -116,4 +116,112 @@ a:hover {
   aspect-ratio: 406.89 / 312.03;
   left: 50%;
   top: 50%;
+}
+
+.second_section_container1 {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px, 56px, 568px, repeat(6, 386px);
+  row-gap: 24px;
+  margin-top: 10%;
+  padding-inline: 24px;
+  padding-block: 120px;
+}
+.recent_work {
+  color: #1c1a19;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: 'Crete Round', sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.line_divider {
+  border-top: 1px solid #212121;
+  width: 100%;
+  padding: 0;
+  margin: 50px 0px 0px 0px;
+}
+
+.stories {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.image_holder {
+  width: 100%;
+  aspect-ratio: 327/237;
+}
+.work-main-image {
+  margin: 70px 0px 0px 0px;
+}
+
+.work_description_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 12px;
+  flex: 3;
+  margin-top: 5px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+  margin: 6px 5px 29px -43px;
+}
+
+.languages li {
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 5px 12px;
+  line-height: 17px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  border-radius: 1px;
+  margin-top: 10px;
+}
+
+.work_description {
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #091e42;
+  text-align: justify;
+}
+
+.see_button {
+  position: absolute;
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  background-color: #ff6b00;
+  width: 124px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
 }
