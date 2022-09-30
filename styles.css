@@ -233,7 +233,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 90px;
-  margin: -280px 0px 0px 9px;
+  margin: -280px 0 0 9px;
 }
 
 .second_section_container2 {
@@ -263,7 +263,7 @@ a:hover {
   height: 48px;
   display: flex;
   justify-content: center;
-  margin: 196px 0px 0px 9px;
+  margin: 196px 0 0 9px;
 }
 
 .footer_fullwidth {
@@ -273,7 +273,7 @@ a:hover {
 .work_title_art {
   color: #fff;
   position: relative;
-  font-family: 'Crete Round';
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -283,13 +283,13 @@ a:hover {
 
 .work_description2 {
   color: #fff;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 150;
   font-size: 16px;
   line-height: 24px;
   text-align: justify;
-  margin: -28px 70px 0px 20px;
+  margin: -28px 70px 0 20px;
 }
 
 .language_group2 {
@@ -411,16 +411,17 @@ a:hover {
   margin-block: 44px;
   margin-left: 76px;
 }
+
 .skill_display_rectangle55 {
-  margin: 0px 0px -85px 41px;
+  margin: 0 0 -85px 41px;
 }
 
 .skill_display_rectangle56 {
-  margin: 0px 0px -68px 45px;
+  margin: 0 0 -68px 45px;
 }
 
 .skill_display_rectangle57 {
-  margin: 0px 0px -79px 69px;
+  margin: 0 0 -79px 69px;
 }
 
 .skill_item_list2 {
@@ -471,7 +472,6 @@ a:hover {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-
   margin-left: 75px;
 }
 
@@ -544,6 +544,7 @@ a:hover {
   background-color: #fbf8f7;
   border-bottom: none;
 }
+
 .button {
   background-color: #ff6b00;
   color: #fff;
