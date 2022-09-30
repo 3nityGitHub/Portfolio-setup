@@ -72,12 +72,14 @@
         </section>
       </div>
     </section>
-    <section>
+    <section class="second_section_container1" id="mobile_portfolio">
       <div class="second_section_div">
-      <div class="projects-card-one"></div>
-      <div><h3 class="recent_work">My Recent Works</h3></div>
+      <div class="recent_work">
+      <div><h3 class="recent_work">My Recent Works</h3>
+      <hr class="line_divider" />
+      </div>
       <div class="image_holder">
-        <!-- multiple stories image comes here -->
+         <img class="work-main-image" src="images/Img Placeholder.png.png" />
       </div>
       <div><h3 class="stories">Multi-Post Stories</h3></div>
       <div>
@@ -88,13 +90,179 @@
         </p>
       </div>
       <div class="languages">
-        <li class="boxes">Html</li>
-        <li class="boxes">Css</li>
-        <li class="boxes">Ruby</li>
-        <li class="boxes">Javascript</li>
+        <ul class="language_group">
+        <li class="languages_tag1">Html</li>
+        <li class="languages_tag2">Css</li>
+        <li class="languages_tag3">Ruby</li>
+        <li class="languages_tag4">Javascript</li>
+        </ul>
       </div>
-      <span><button class="more_button">See More</button></span>
-    </div>
+      <div class="see_button">
+        <span><button class="see_button">See Projects</button></span>
+      </div>
+      </div>
     </section>
+    <section class="second_section_container2" id="mobile_portfolio2">
+      <div class="work_content">
+            <h3 class="work_title_art">
+              Profesional Art Printing Data
+            </h3>
+            <h3 class="work_title_health">Data Dashboard Healthcare</h3>
+            <p class="work_description2">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+          </div>
+          <div class="languages2">
+            <ul class="language_group2">
+              <li class="languages_tag5">html</li>
+              <li class="languages_tag6">bootstrap</li>
+              <li class="languages_tag7">Ruby</li>
+            </ul>
+          </div>
+          <div class="second_section_footer">
+            <a class="footer_fullwidth"> See Project </a>
+          </div>
+    </section>
+    <section class="third_section_container">
+      <div class="about_us_div">
+          <h2 class="about_title">About me</h2>
+          <p class="about_content">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+           <span><button class="see_button">Get My Resume</button></span>
+        </div>
+        <div class="line_divider_container">
+          <hr class="line_divider2" />
+        </div>
+         <div class="image_frame_holder">
+         <img class="frame_image" src="images/Frame.png.png" />
+      </div>
+        <div class="skill_display">
+          <ul class="skill_display_list">
+            <li class="skill_display_items1">
+              <div class="skill_display_lang">
+                <img class="skill_display_rectangle55" src="images/Rectangle 55.png" />
+                <p class="skill_display_title1">Language</p>
+              </div>
+              <ul class="skill_item_list1">
+                <li class="skill_display_tag1">Javascript</li>
+                <li class="skill_display_tag2">Ruby</li>
+                <li class="skill_display_tag3">Html</li>
+                <li class="skill_display_tag4">Css</li>
+              </ul>
+            </li>
+            <li class="skill_display_items2">
+              <div class="skill_display_framework">
+                <img class="skill_display_rectangle56" src="images/Rectangle 56.png" />
+                <p class="skill_display_title2">Frameworks</p>
+              </div>
+              <ul class="skills_item_list2">
+                <li class="skill_display_tag5">Bootstrap</li>
+                <li class="skill_display_tag6">Ruby on Rails</li>
+                <li class="skill_display_tag7">RSPec</li>
+                <li class="skill_display_tag8">CapyBara</li>
+                <li class="skill_display_tag9">Selenium</li>
+              </ul>
+            </li>
+            <li class="skill_display_items3">
+              <div class="skill_display_Skills">
+                <img class="skill_display_rectangle57" src="images/Rectangle 57.png" />
+                <p class="skill_display_title2">Skills</p>
+              </div>
+              <ul class="skill_item_list3">
+                <li class="skill_display_tag10">Codekit</li>
+                <li class="skill_display_tag11">Github</li>
+                <li class="skill_display_tag12">Codepen</li>
+                <li class="skill_display_tag13">Gitlab</li>
+                <li class="skill_display_tag14">Terminal</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <section class="white_contact_bg" id="Contact">
+        <p class="formpage_content">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <fieldset class="form_container">
+          <form
+          class="contact_me_form"
+          action="https://formspree.io/f/mrgdqveo"
+          method="POST"
+        >
+          <label for="name" hidden>Name</label>
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            class="inputs"
+            placeholder="Full names here"
+            maxlength="50"
+            required
+          />
+          <label for="email" hidden>Email</label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            class="inputs"
+            placeholder="abcd@email.com"
+            required
+          />
+          <label for="message" hidden>Message</label>
+          <textarea
+            name="Message"
+            id="message"
+            placeholder="Enter text here"
+            class="inputs"
+            id=""
+            cols="30"
+            rows="3"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit" name="button" class="button">
+            Get in touch
+          </button>
+        </form>
+        </fieldset>
+      </section>
+      <section class="footer_section">
+         <ul id="social_media_tag">
+            <li class="social_media_link">
+              <a href="https://www.linkedin.com/"
+                ><i class="colored fa-brands fa-linkedin-in fa-xl"></i
+              ></a>
+            </li>
+            <li class="social_media_link">
+              <a href="https://twitter.com/home"
+                ><i class="colored fa-brands fa-twitter fa-xl"></i
+              ></a>
+            </li>
+            <li class="social_media_link">
+              <a href="https://medium.com/"
+                ><i class="colored fa-solid fa-m fa-xl"></i
+              ></a>
+            </li>
+            <li class="social_media_link">
+              <a href="https://github.com/"
+                ><i class="colored fa-brands fa-github fa-xl"></i
+              ></a>
+            </li>
+            <li class="social_media_link">
+              <a href="https://www.angellist.com/"
+                ><i class="colored fa-solid fa-hand-peace fa-xl"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="line_divider_container">
+          <hr class="line_divider2" />
+        </div>
+      </section>
   </body>
 </html>
