@@ -531,7 +531,6 @@ a:hover {
   background-color: #0d151e;
   margin-block: 8px;
   border-radius: 10px;
-  height: 5px;
 }
 
 .inputs {
@@ -543,11 +542,18 @@ a:hover {
   border: none;
   border-bottom: 1px solid #7e2102;
   padding: 14px;
+  width: 327px;
+  height: 25px;
+  margin-left: -100px;
 }
 
 .contact_me_form textarea {
   background-color: #fbf8f7;
   border-bottom: none;
+  width: 327px;
+  height: 114px;
+  align-self: center;
+  margin-left: -100px;
 }
 
 .button {
