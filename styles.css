@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(9, 9, 9);
   margin: 0;
   width: 100%;
   aspect-ratio: 375/5410;
@@ -7,7 +6,8 @@ body {
 }
 
 .first_section_div {
-  height: auto;
+  height: 100vh;
+  background-color: #000;
 }
 
 header {
@@ -56,9 +56,18 @@ header {
   font-weight: 700;
   font-family: Crete Round, sans-serif;
   color: #ff6b00;
-  font-size: 40px;
-  line-height: 52px;
-  margin: 0 0;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  margin: 120px 24px auto 20px;
+}
+
+.intro_text {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5px 24px auto 20px;
 }
 
 #introduction {
@@ -66,8 +75,10 @@ header {
   font-style: normal;
   font-weight: 350;
   font-size: 16px;
+  text-align: left;
   line-height: 24px;
   color: #ffff;
+  margin: 15px 24px auto 20px;
 }
 
 #social_media {
@@ -76,6 +87,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  color: #d3e1f9;
 }
 
 a:link {
@@ -97,6 +109,7 @@ a:hover {
 #social_media_tag {
   list-style: none;
   padding-inline-start: 0;
+  margin: 15px 24px auto 20px;
 }
 
 .social_media_link {
@@ -104,17 +117,12 @@ a:hover {
   margin-right: 15px;
 }
 
-.intro_text {
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-}
-
 .side_image {
   position: absolute;
   width: 108.504%;
   aspect-ratio: 406.89 / 312.03;
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  top: 60%;
 }
 
 .second_section_container1 {
@@ -158,6 +166,7 @@ a:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin: 4px 0px 0px 18px;
 }
 
 .image_holder {
@@ -169,12 +178,12 @@ a:hover {
   margin: 70px 0 0 0;
 }
 
-.work_description_container {
+.work_description {
   display: flex;
   flex-direction: column;
   gap: 10px 12px;
   flex: 3;
-  margin-top: 5px;
+  font-size: 16px;
 }
 
 .languages {
@@ -222,8 +231,8 @@ a:hover {
   width: 124px;
   height: 48px;
   display: flex;
-  justify-content: center;
-  margin-top: -5px;
+  align-items: center;
+  margin-top: -10px;
 }
 
 .bg_image {
@@ -378,7 +387,7 @@ a:hover {
   width: 108.504%;
   aspect-ratio: 406.89 / 312.03;
   left: 60%;
-  top: 310%;
+  top: 320%;
 }
 
 .skill_item_list1 {
