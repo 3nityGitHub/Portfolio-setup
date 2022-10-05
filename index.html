@@ -194,8 +194,40 @@
         <form class="contact_me_form"
           action="https://formspree.io/f/xoqbwpby"
           method="POST">
-          
-
+          <label for="name" hidden>Name</label>
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            class="inputs"
+            placeholder="Full names here"
+            maxlength="50"
+            required
+          /><br>
+          <label for="email" hidden>Email</label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            class="inputs"
+            placeholder="abcd@email.com"
+            required
+          />
+          <label for="message" hidden>Message</label>
+          <textarea
+            name="Message"
+            id="message"
+            placeholder="Enter text here"
+            class="inputs"
+            id=""
+            cols="30"
+            rows="3"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit" name="button" class="button">
+            Get in touch
+          </button>
         </form>
     </section>
       <section class="footer_section">
