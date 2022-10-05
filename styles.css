@@ -298,26 +298,24 @@ a:hover {
 }
 
 .language_group2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   list-style-type: none;
   text-align: center;
   margin: -87px 92px 34px -20px;
 }
 
 .language_group2 li {
+  margin: 3px;
+  float: left;
   color: #fff;
   font-size: 15px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   box-sizing: border-box;
-  padding: 5px 12px;
+  padding: 5px 9px;
   line-height: 17px;
   height: 30px;
   background: rgba(255, 255, 255, 0.24);
-  margin-top: 10px;
   position: relative;
 }
 
@@ -545,7 +543,7 @@ a:hover {
   padding: 14px;
   width: 325px;
   height: 25px;
-  margin-left: -100px;
+  margin-left: -120px;
 }
 
 .contact_me_form textarea {
@@ -557,7 +555,7 @@ a:hover {
   width: 325px;
   height: 114px;
   align-self: center;
-  margin-left: -100px;
+  margin: 29px -79px 99px -117px;
 }
 
 .button {
@@ -566,10 +564,12 @@ a:hover {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
-  height: auto;
+  width: 131px;
+  height: 48px;
   padding: 12px;
-  width: fit-content;
   border: none;
+  align-items: center;
+  margin: 29px -79px 99px 7px;
 }
 
 .button:hover {
