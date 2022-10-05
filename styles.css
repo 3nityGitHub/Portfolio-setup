@@ -44,12 +44,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: auto;
-}
-
-#sub_section2 {
-  margin-left: 20px;
-  color: #bac1fe;
+  height: 500px;
 }
 
 #intro_name {
@@ -81,8 +76,11 @@ header {
   margin: 15px 24px auto 20px;
 }
 
-#social_media {
+.sub_section2 {
   color: #d3e1f9;
+  margin: 15px 24px auto 20px;
+}
+#social_media {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -109,7 +107,7 @@ a:hover {
 #social_media_tag {
   list-style: none;
   padding-inline-start: 0;
-  margin: 15px 24px auto 20px;
+  margin: 15px 24px auto -2px;
 }
 
 .social_media_link {
@@ -121,8 +119,8 @@ a:hover {
   position: absolute;
   width: 108.504%;
   aspect-ratio: 406.89 / 312.03;
-  left: 40%;
-  top: 60%;
+  left: 45%;
+  top: 70%;
 }
 
 .second_section_container1 {
@@ -238,7 +236,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 90px;
-  margin: -280px 0 0 9px;
+  margin: -280px 0 0 0px;
 }
 
 .second_section_container2 {
@@ -268,7 +266,7 @@ a:hover {
   height: 48px;
   display: flex;
   justify-content: center;
-  margin: 196px 0 0 9px;
+  margin: 196px 0 0 0px;
 }
 
 .footer_fullwidth {
@@ -298,15 +296,14 @@ a:hover {
 }
 
 .language_group2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   list-style-type: none;
   text-align: center;
   margin: -87px 92px 34px -20px;
 }
 
 .language_group2 li {
+  margin: 3px;
+  float: left;
   color: #fff;
   font-size: 15px;
   font-family: Inter, sans-serif;
@@ -384,7 +381,7 @@ a:hover {
   width: 493.27px;
   height: 258.7px;
   left: 60%;
-  top: 390%;
+  top: 410%;
 }
 
 .skill_item_list1 {
@@ -498,13 +495,22 @@ a:hover {
   background: #fff;
 }
 
+.formpage_content_container {
+  display: flex;
+  justify-content: center;
+  width: 127px;
+  height: 246px;
+  padding: 112px;
+  text-align: center;
+}
+
 .formpage_content {
+  color: #172b4d;
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
-  text-align: center;
   margin: 29px -79px 99px -78px;
 }
 
@@ -544,7 +550,7 @@ a:hover {
   padding: 14px;
   width: 325px;
   height: 25px;
-  margin-left: -120px;
+  margin-left: 12px;
 }
 
 .contact_me_form textarea {
@@ -556,11 +562,11 @@ a:hover {
   width: 325px;
   height: 114px;
   align-self: center;
-  margin: 29px -79px 99px -117px;
+  margin: 29px -79px 99px 10px;
 }
 
 .button {
-  background-color: #050302;
+  background-color: #ff6b00;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
@@ -570,7 +576,7 @@ a:hover {
   padding: 12px;
   border: none;
   align-items: center;
-  margin: 29px -79px 99px 7px;
+  margin: -39px -79px 99px 107px;
 }
 
 .button:hover {
