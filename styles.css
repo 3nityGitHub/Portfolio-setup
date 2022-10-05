@@ -80,6 +80,7 @@ header {
   color: #d3e1f9;
   margin: 15px 24px auto 20px;
 }
+
 #social_media {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -236,7 +237,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 90px;
-  margin: -280px 0 0 0px;
+  margin: -280px 0 0 0;
 }
 
 .second_section_container2 {
@@ -266,7 +267,7 @@ a:hover {
   height: 48px;
   display: flex;
   justify-content: center;
-  margin: 196px 0 0 0px;
+  margin: 196px 0 0 0;
 }
 
 .footer_fullwidth {
