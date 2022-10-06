@@ -1,7 +1,6 @@
 body {
   margin: 0;
   width: 100%;
-  aspect-ratio: 375/5410;
   overflow-x: hidden;
 }
 
@@ -44,12 +43,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: auto;
-}
-
-#sub_section2 {
-  margin-left: 20px;
-  color: #bac1fe;
+  height: 500px;
 }
 
 #intro_name {
@@ -81,8 +75,12 @@ header {
   margin: 15px 24px auto 20px;
 }
 
-#social_media {
+.sub_section2 {
   color: #d3e1f9;
+  margin: 15px 24px auto 20px;
+}
+
+#social_media {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -109,7 +107,7 @@ a:hover {
 #social_media_tag {
   list-style: none;
   padding-inline-start: 0;
-  margin: 15px 24px auto 20px;
+  margin: 15px 24px auto -2px;
 }
 
 .social_media_link {
@@ -121,8 +119,8 @@ a:hover {
   position: absolute;
   width: 108.504%;
   aspect-ratio: 406.89 / 312.03;
-  left: 40%;
-  top: 60%;
+  left: 45%;
+  top: 70%;
 }
 
 .second_section_container1 {
@@ -238,7 +236,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 90px;
-  margin: -280px 0 0 9px;
+  margin: -280px 0 0 0;
 }
 
 .second_section_container2 {
@@ -268,7 +266,7 @@ a:hover {
   height: 48px;
   display: flex;
   justify-content: center;
-  margin: 196px 0 0 9px;
+  margin: 196px 0 0 0;
 }
 
 .footer_fullwidth {
@@ -298,26 +296,24 @@ a:hover {
 }
 
 .language_group2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   list-style-type: none;
   text-align: center;
   margin: -87px 92px 34px -20px;
 }
 
 .language_group2 li {
+  margin: 3px;
+  float: left;
   color: #fff;
   font-size: 15px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   box-sizing: border-box;
-  padding: 5px 12px;
+  padding: 5px 9px;
   line-height: 17px;
   height: 30px;
   background: rgba(255, 255, 255, 0.24);
-  margin-top: 10px;
   position: relative;
 }
 
@@ -325,6 +321,7 @@ a:hover {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
+  height: 1901px;
 }
 
 .about_us_div {
@@ -385,7 +382,7 @@ a:hover {
   width: 493.27px;
   height: 258.7px;
   left: 60%;
-  top: 390%;
+  top: 410%;
 }
 
 .skill_item_list1 {
@@ -402,10 +399,10 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   box-sizing: border-box;
-  padding: 5px 12px;
-  line-height: 17px;
+  padding: 5px 2px;
+  line-height: 5px;
   text-align: center;
-  margin: 43px 115px -19px 55px;
+  margin: 12px 115px -19px 55px;
   color: #fff;
 }
 
@@ -448,7 +445,7 @@ a:hover {
   padding: 5px 12px;
   line-height: 17px;
   text-align: center;
-  margin: 62px 115px -19px 55px;
+  margin: 12px 115px -19px 55px;
   color: #fff;
 }
 
@@ -456,8 +453,9 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 25px;
   list-style-type: none;
+  padding: 0;
 }
 
 .skill_item_list3 li {
@@ -466,10 +464,10 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   box-sizing: border-box;
-  padding: 5px 12px;
+  padding: -2px 12px;
   line-height: 5px;
   text-align: center;
-  margin: 62px 132px -19px 55px;
+  margin: 32px 95px -19px 55px;
   color: #fff;
 }
 
@@ -499,18 +497,28 @@ a:hover {
   background: #fff;
 }
 
+.formpage_content_container {
+  display: flex;
+  justify-content: center;
+  width: 127px;
+  height: 246px;
+  padding: 112px;
+  text-align: center;
+}
+
 .formpage_content {
+  color: #172b4d;
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 700px;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
-  text-align: center;
   margin: 29px -79px 99px -78px;
 }
 
 .footer_section {
   background-color: #fff;
+  color: #505f79;
   border-top: 1px solid #dfe1e6;
   display: flex;
   flex-direction: column;
@@ -545,7 +553,7 @@ a:hover {
   padding: 14px;
   width: 325px;
   height: 25px;
-  margin-left: -100px;
+  margin-left: 12px;
 }
 
 .contact_me_form textarea {
@@ -557,7 +565,7 @@ a:hover {
   width: 325px;
   height: 114px;
   align-self: center;
-  margin-left: -100px;
+  margin: 29px -79px 99px 10px;
 }
 
 .button {
@@ -566,10 +574,12 @@ a:hover {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
-  height: auto;
+  width: 131px;
+  height: 48px;
   padding: 12px;
-  width: fit-content;
   border: none;
+  align-items: center;
+  margin: -39px -79px 99px 107px;
 }
 
 .button:hover {
