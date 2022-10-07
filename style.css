@@ -19,13 +19,13 @@ header {
 
 h1 {
   width: 350px;
-  height: 124px;
+  height: 210px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3.5rem;
-  line-height: 4rem;
-  letter-spacing: 0.023rem;
+  font-size: 72px;
+  line-height: 82px;
+  letter-spacing: 2.3%;
   color: #f55800;
   flex: none;
   order: 0;
@@ -58,7 +58,7 @@ li {
 }
 
 .header_title {
-  width: 327px;
+  width: 566px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -89,7 +89,7 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.5rem;
+  line-height: 20px;
   display: flex;
   align-items: center;
   color: #fff;
@@ -122,8 +122,8 @@ li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 2rem;
+  font-size: 20px;
+  line-height: 32px;
   color: #fff;
   flex: none;
   order: 2;
@@ -169,8 +169,8 @@ li {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.5rem;
-  line-height: 3.25rem;
+  font-size: 40px;
+  line-height: 52px;
   display: flex;
   align-items: center;
   color: #1c1a19;
@@ -237,12 +237,12 @@ li {
 
 .placeholder_text {
   width: 327px;
-  height: 147px;
+  height: 115px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 20px;
+  line-height: 28px;
   color: #091e42;
   flex: none;
   order: 1;
@@ -256,7 +256,7 @@ li {
   padding: 0;
   gap: 12px;
   width: 297px;
-  height: 40px;
+  height: 95px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -300,15 +300,15 @@ li {
   order: 3;
   flex-grow: 0;
   padding: 0;
-  padding-top: 30px;
+  padding-top: 6px;
 }
 
 .see_project_button {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.063rem;
-  line-height: 1.5rem;
+  font-size: 17px;
+  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -317,7 +317,6 @@ li {
   width: 124px;
   height: 48px;
   color: #fff;
-  transition: all 0.5s ease-in;
   margin: auto;
   justify-content: center;
   border: 1px;
@@ -350,8 +349,8 @@ li {
 .first_project_content {
   padding: 0 15px 15px 15px;
   font-weight: 400;
-  font-size: 1.625rem;
-  line-height: 1.5rem;
+  font-size: 17px;
+  line-height: 25px;
   color: #fff;
   flex: none;
   order: 1;
@@ -362,7 +361,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 40px;
+  padding: 0px 40px;
   gap: 12px;
   flex: none;
   order: 2;
@@ -381,6 +380,17 @@ li {
   line-height: 1.2rem;
 }
 
+.first_project_holder2 {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 15px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.938rem;
+  line-height: 1.2rem;
+}
+
 .see_project_button2 {
   order: 3;
   width: 100%;
@@ -388,7 +398,7 @@ li {
   left: 0;
   top: 0;
   color: white;
-  font-size: 1.2rem;
+  font-size: 17px;
   background: #f55800;
   border: 1px;
 }
@@ -425,7 +435,7 @@ li {
 }
 
 .About_me_text {
-  width: 566px;
+  width: 300px;
   height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -589,7 +599,7 @@ li {
 
 .border_line_form {
   width: 100%;
-  border: 2px solid #47494e;
+  border: 1.5px solid #b7b8ba;
 }
 
 .social_media_link_footer {
@@ -720,7 +730,7 @@ li {
   }
 
   .placeholder_description {
-    margin-top: 100px;
+    margin-top: 23px;
   }
 
   .see_project {
@@ -733,7 +743,7 @@ li {
     align-items: center;
   }
 
-  .recent_works {
+  .recent_work {
     margin-left: 30px;
   }
 
@@ -813,7 +823,7 @@ li {
   .second_project {
     background-size: cover;
     background-position: center center;
-    background-image: url(../img/ImgPlaceholder0.png);
+    background-image: url(images/Img\ Placeholder_projects.png);
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -824,7 +834,7 @@ li {
   .third_project {
     background-size: cover;
     background-position: center center;
-    background-image: url(../img/ImgPlaceholder2.png);
+    background-image: url(../images/ImgPlaceholder2.png);
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -856,7 +866,7 @@ li {
     display: none;
   }
   .see_project_button2 {
-    margin-top: 40px;
+    margin-top: 387px;
   }
 
   .hr-line_break {
