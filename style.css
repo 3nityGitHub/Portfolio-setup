@@ -790,7 +790,7 @@ li {
     flex-direction: row;
     align-items: flex-start;
     gap: 152px;
-    margin: -130px 0px 0px 0px;
+    margin: -130px 0 0 0;
   }
 
   .Language_skill_list2 {
