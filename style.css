@@ -154,6 +154,7 @@ li {
   order: 0;
   flex-grow: 0;
 }
+
 .recent_works {
   display: flex;
   flex-direction: column;
@@ -361,7 +362,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px 40px;
+  padding: 0 40px;
   gap: 12px;
   flex: none;
   order: 2;
@@ -403,7 +404,7 @@ li {
   border: 1px;
 }
 
-/*About_me_section*/
+/* About_me_section */
 
 .About_me_section {
   background: #1c1a19;
@@ -512,7 +513,7 @@ li {
   color: #fff;
 }
 
-/*Form section*/
+/* Form section */
 .form_section {
   display: flex;
   flex-direction: column;
@@ -620,6 +621,7 @@ li {
   order: 0;
   flex-grow: 0;
 }
+
 @media screen and (min-width: 768px) {
   .link_header {
     display: block;
@@ -788,7 +790,7 @@ li {
     flex-direction: row;
     align-items: flex-start;
     gap: 152px;
-    margin: auto;
+    margin: -130px 0px 0px 0px;
   }
 
   .Language_skill_list2 {
@@ -814,10 +816,6 @@ li {
     height: 256px;
     color: #262626;
     padding-left: 300px;
-  }
-
-  .language {
-    margin-bottom: 85px;
   }
 
   .second_project {
@@ -865,6 +863,7 @@ li {
   .see_project_button2a {
     display: none;
   }
+
   .see_project_button2 {
     margin-top: 387px;
   }
