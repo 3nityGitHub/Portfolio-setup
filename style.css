@@ -554,7 +554,7 @@ li {
   opacity: 1;
 }
 
-.form_input {
+.form_input_names {
   background: #e5e5e5;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -571,7 +571,36 @@ li {
 }
 
 .form_input_email {
+  background: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 80%;
+  margin: auto;
+  border: none;
+  opacity: 1;
+}
+
+.form_input_textarea {
   background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 500px;
+  height: 114px;
+  margin: auto;
+  border: none;
+  opacity: 1;
 }
 
 .get_in_touch_button {
@@ -596,6 +625,7 @@ li {
   list-style: none;
   background: #e5e5e5;
   padding-top: 20px;
+  height: 72px;
 }
 
 .border_line_form {
@@ -647,6 +677,18 @@ li {
     align-items: flex-end;
     padding: 26px;
     margin: 0;
+  }
+
+  a {
+    text-align: center;
+    transition: all 0.5s ease-out;
+    padding-top: 5px;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: rgb(253, 211, 211);
+    color: #333;
   }
 
   .name_logo {
@@ -829,12 +871,14 @@ li {
     text-align: left;
   }
 
-  .form_section {
+  .form_container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: auto;
-    padding-right: 100px;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 684px;
+    height: 330px;
   }
 
   .form_text {
@@ -846,9 +890,8 @@ li {
     padding-left: 100px;
   }
 
-  .border_line_form {
-    width: 100%;
-    align-items: center;
+  .border_line_form1 {
+    width: 1440px;
   }
 
   .second_project {
@@ -904,8 +947,42 @@ li {
   .hr-line_break {
     margin-bottom: 180px;
   }
+  .hr-line_break2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
 
   .Line_Language_skill {
     margin: -150px 0 0 0;
   }
+
+  .first_project:hover,
+  .first_project_holder:hover {
+    transform: scale(1.05);
+  }
+
+  .images {
+    transition: all 0.2s ease-out;
+  }
+
+  .see_project_button,
+  .Resume_button,
+  .get_in_touch_button {
+    background-color: #f55800;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+
+  .see_project_button:hover,
+  .Resume_button:hover,
+  .get_in_touch_button:hover {
+    background-color: #fff;
+    color: #f55800;
+  }
+
+
 }
