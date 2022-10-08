@@ -555,13 +555,13 @@ li {
 }
 
 .form_input_names {
-  display: block;
   background: #e5e5e5;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.938rem;
   line-height: 1.5rem;
+  display: flex;
   align-items: center;
   color: #979493;
   width: 80%;
@@ -571,13 +571,13 @@ li {
 }
 
 .form_input_email {
-  display: inline;
   background: #e5e5e5;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 0.938rem;
   line-height: 1.5rem;
+  display: flex;
   align-items: center;
   color: #979493;
   width: 80%;
@@ -587,6 +587,7 @@ li {
 }
 
 .form_input_textarea {
+  background: #fbf8f7;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -627,9 +628,9 @@ li {
   height: 72px;
 }
 
-.border_line_form1 {
+.border_line_form {
   width: 100%;
-  border: 1px solid #b7b8ba;
+  border: 1.5px solid #b7b8ba;
 }
 
 .social_media_link_footer {
@@ -874,7 +875,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0;
+    padding: 0px;
     gap: 24px;
     width: 684px;
     height: 330px;
@@ -945,6 +946,10 @@ li {
 
   .hr-line_break {
     margin-bottom: 180px;
+  }
+  .hr-line_break2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   .Line_Language_skill {
