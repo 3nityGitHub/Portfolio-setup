@@ -571,7 +571,6 @@ li {
 }
 
 .form_input_email {
-  background: #fbf8f7;
   display: inline;
   background: #e5e5e5;
   font-family: 'Inter', sans-serif;
@@ -579,7 +578,6 @@ li {
   font-weight: 400;
   font-size: 0.938rem;
   line-height: 1.5rem;
-  display: flex;
   align-items: center;
   color: #979493;
   width: 80%;
@@ -587,6 +585,7 @@ li {
   border: none;
   opacity: 1;
 }
+
 .form_input_textarea {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -875,7 +874,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     width: 684px;
     height: 330px;
@@ -947,7 +946,7 @@ li {
   .hr-line_break {
     margin-bottom: 180px;
   }
-  
+
   .Line_Language_skill {
     margin: -150px 0 0 0;
   }
