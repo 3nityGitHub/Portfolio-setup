@@ -931,4 +931,22 @@ li {
 images {
   transition: all 0.2s ease-out;
 }
+
+
+.see_project_button,
+.Resume_button {
+ background-color: #333;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.see_project_button:hover,
+.Resume_button:hover{
+  background-color: #fff;
+  color: #333;
+}
 }
