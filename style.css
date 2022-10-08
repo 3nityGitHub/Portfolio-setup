@@ -875,7 +875,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     width: 684px;
     height: 330px;
@@ -947,9 +947,10 @@ li {
   .hr-line_break {
     margin-bottom: 180px;
   }
+
   .hr-line_break2 {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
   }
 
   .Line_Language_skill {
