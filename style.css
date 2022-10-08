@@ -957,15 +957,6 @@ li {
     margin: -150px 0 0 0;
   }
 
-  .first_project:hover,
-  .first_project_holder:hover {
-    transform: scale(1.05);
-  }
-
-  .images {
-    transition: all 0.2s ease-out;
-  }
-
   .see_project_button,
   .Resume_button,
   .get_in_touch_button {
