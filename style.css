@@ -649,6 +649,17 @@ li {
     margin: 0;
   }
 
+  a{
+    text-align: center;
+    transition: all 0.5s ease-out;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: rgb(253, 211, 211);
+    color: #333;
+  }
+
   .name_logo {
     display: flex;
     flex-direction: row;
