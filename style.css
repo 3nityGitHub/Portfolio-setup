@@ -112,7 +112,7 @@ li {
   background: #1c1a19;
   background-position: right bottom;
   padding: 120px 24px;
-  background-image: url(/images/illustration/Illustration.svg);
+  background-image: url(images/illustration/Illustration.svg);
   background-repeat: no-repeat;
 }
 
@@ -411,7 +411,7 @@ li {
 }
 
 .About_me_div {
-  background-image: url(../images/Frame.png);
+  background-image: url(images/Frame.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -790,13 +790,20 @@ li {
     flex-direction: row;
     align-items: flex-start;
     gap: 152px;
-    margin: -130px 0 0 0;
+    margin: -170px 190px 0px 0px;
   }
 
   .Language_skill_list2 {
     display: flex;
     flex-direction: column;
     margin: auto;
+  }
+
+   .Language_skill_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 240px;
   }
 
   .language {
