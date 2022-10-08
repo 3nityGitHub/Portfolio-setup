@@ -926,7 +926,7 @@ li {
     transform: scale(1.05);
   }
 
-  images {
+  .images {
     transition: all 0.2s ease-out;
   }
 
