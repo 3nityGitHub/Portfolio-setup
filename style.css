@@ -652,6 +652,7 @@ li {
   a{
     text-align: center;
     transition: all 0.5s ease-out;
+    padding-top: 5px;
   }
 
   a:hover,
@@ -919,4 +920,15 @@ li {
   .Line_Language_skill {
     margin: -150px 0 0 0;
   }
+  
+  
+.first_project:hover,
+.first_project_holder:hover {
+  transform: scale(1.05);
+}
+
+
+images {
+  transition: all 0.2s ease-out;
+}
 }
