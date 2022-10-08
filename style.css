@@ -957,7 +957,7 @@ li {
     margin: -150px 0 0 0;
   }
 
-  .see_project_button,
+  .see_project_button2 .see_project_button,
   .Resume_button,
   .get_in_touch_button {
     background-color: #f55800;
@@ -969,10 +969,11 @@ li {
     transition: all 0.5s ease-out;
   }
 
+  .see_project_button2:hover,
   .see_project_button:hover,
   .Resume_button:hover,
   .get_in_touch_button:hover {
-    background-color: #fff;
-    color: #f55800;
+    background-color: #fff5e1;
+    color: #E05304;
   }
 }
