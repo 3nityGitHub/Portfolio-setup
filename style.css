@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   margin: 0;
   height: auto;
+  width: 1440px;
 }
 
 header {
