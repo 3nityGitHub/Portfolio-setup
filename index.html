@@ -265,20 +265,29 @@
     </section>
 
     <section class="form_section">
+      <div class="form_container">
         <h3 class="form_text">I'm always interested in hearing about new projects, so if you'd like to chat please get in</h2>
     
         <form class="contact_me_form" action="https://formspree.io/f/xoqbwpby" method="post">
-            <label hidden for="text"> Full Name </label>
-            <input class="form_input form_input_height" type="text" placeholder="Enter full names" maxlength="30" required>
+
+            <input class="form_input_names" name= "first_name" type="text" placeholder="First name" maxlength="30" required>
             <hr>
-            <label hidden for="text"> Email </label>
-            <input class="form_input form_input_height" type="email" placeholder="abcd@form.com" required>
+              
+            <input class="form_input_names" name= "last_name" type="text" placeholder="Last name" maxlength="30" required>
             <hr>
-            <label hidden for="text"> Enter your text</label>
-            <textarea class="form_input form_input_email" name="" id="" cols="30" rows="5" placeholder="Leave us a message" maxlength="500" required></textarea> <br>
-            <button type="submit" class="get_in_touch_button">Get in touch</button>
-            <hr class="border_line_form">
+                         
+            <input class="form_input_email" name= "email_address" type="email" placeholder="abcd@form.com" required>
+            <hr>
+            
+            <textarea class="form_input_textarea" name="comment_message" id="" cols="30" rows="5" placeholder="Leave us a message" maxlength="500" required></textarea> <br>
+            <button type="submit" name= "submit"class="get_in_touch_button">Get in touch</button>
+           
         </form>
+      </div>
+        <div class="line_container">
+           <hr class="border_line_form1">
+            
+        </div>
     </section>
 
     <footer class="social_media_footer">

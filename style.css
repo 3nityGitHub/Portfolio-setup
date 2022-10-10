@@ -554,7 +554,7 @@ li {
   opacity: 1;
 }
 
-.form_input {
+.form_input_names {
   background: #e5e5e5;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -571,7 +571,36 @@ li {
 }
 
 .form_input_email {
+  background: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 80%;
+  margin: auto;
+  border: none;
+  opacity: 1;
+}
+
+.form_input_textarea {
   background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 500px;
+  height: 114px;
+  margin: auto;
+  border: none;
+  opacity: 1;
 }
 
 .get_in_touch_button {
@@ -596,6 +625,7 @@ li {
   list-style: none;
   background: #e5e5e5;
   padding-top: 20px;
+  height: 72px;
 }
 
 .border_line_form {
@@ -841,12 +871,14 @@ li {
     text-align: left;
   }
 
-  .form_section {
+  .form_container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: auto;
-    padding-right: 100px;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 684px;
+    height: 330px;
   }
 
   .form_text {
@@ -858,9 +890,8 @@ li {
     padding-left: 100px;
   }
 
-  .border_line_form {
-    width: 100%;
-    align-items: center;
+  .border_line_form1 {
+    width: 1440px;
   }
 
   .second_project {
@@ -917,6 +948,11 @@ li {
     margin-bottom: 180px;
   }
 
+  .hr-line_break2 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
   .Line_Language_skill {
     margin: -150px 0 0 0;
   }
@@ -931,8 +967,9 @@ li {
   }
 
   .see_project_button,
-  .Resume_button {
-    background-color: #333;
+  .Resume_button,
+  .get_in_touch_button {
+    background-color: #f55800;
     color: #fff;
     border: 1px solid;
     padding: 0.5rem;
@@ -942,8 +979,37 @@ li {
   }
 
   .see_project_button:hover,
-  .Resume_button:hover {
+  .Resume_button:hover,
+  .get_in_touch_button:hover {
     background-color: #fff;
-    color: #333;
+    color: #f55800;
+  }
+
+  .see_project_button:focus,
+  .Resume_button:focus,
+  .get_in_touch_button:focus {
+    background-color: #e05304;
+    color: #fff;
+  }
+
+  p,
+  h1,
+  h2 {
+    animation-duration: 3s;
+    animation-name: slidein, easein;
+  }
+
+  @keyframes slidein {
+    from {
+      color: #ff6b00;
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      color: #fff;
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
