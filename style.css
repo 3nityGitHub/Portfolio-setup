@@ -985,6 +985,13 @@ li {
     color: #f55800;
   }
 
+  .see_project_button:focus,
+  .Resume_button:focus,
+  .get_in_touch_button:focus {
+    background-color: #E05304;
+    color: #fff;
+  }
+
   p,
   h1,
   h2 {
