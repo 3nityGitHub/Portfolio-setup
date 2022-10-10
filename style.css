@@ -980,19 +980,21 @@ li {
 
   .see_project_button:hover,
   .Resume_button:hover,
-  .get_in_touch_button:hover {
+  .get_in_touch_button:hover,
+  .see_project_button2:hover {
     background-color: #fff;
     color: #f55800;
   }
 
   .see_project_button:focus,
   .Resume_button:focus,
-  .get_in_touch_button:focus {
+  .get_in_touch_button:focus,
+  .see_project_button2:focus {
     background-color: #e05304;
     color: #fff;
   }
 
-  p,
+  .header_description,
   h1,
   h2 {
     animation-duration: 3s;
