@@ -112,7 +112,7 @@ li {
   background: #1c1a19;
   background-position: right bottom;
   padding: 120px 24px;
-  background-image: url("images/illustration/Illustration.svg");
+  background-image: url("../images/illustration/Illustration.svg");
   background-repeat: no-repeat;
 }
 
@@ -153,6 +153,7 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 150px;
 }
 
 .recent_works {
@@ -248,6 +249,7 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-top: -10px;
 }
 
 .placeholder_language {
@@ -411,7 +413,7 @@ li {
 }
 
 .About_me_div {
-  background-image: url("images/Frame.png");
+  background-image: url("../images/Frame.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -532,17 +534,17 @@ li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2rem;
-  line-height: 2.75rem;
+  font-size: 32px;
+  line-height: 44px;
   text-align: center;
   margin: 0 0 30px 0;
-  width: auto;
+  width: 327px;
 }
 
 .contact_me_form {
-  margin: auto;
+  margin: 120px 0 0 20px;
   text-align: center;
-  width: 80%;
+  width: 327px;
   padding-top: 20px;
   opacity: 1;
 }
@@ -564,7 +566,7 @@ li {
   display: flex;
   align-items: center;
   color: #979493;
-  width: 80%;
+  width: 327px;
   margin: auto;
   border: none;
   opacity: 1;
@@ -580,7 +582,7 @@ li {
   display: flex;
   align-items: center;
   color: #979493;
-  width: 80%;
+  width: 327px;
   margin: auto;
   border: none;
   opacity: 1;
@@ -596,7 +598,7 @@ li {
   display: flex;
   align-items: center;
   color: #979493;
-  width: 500px;
+  width: 327px;
   height: 114px;
   margin: auto;
   border: none;
@@ -746,6 +748,10 @@ li {
     flex-shrink: 0;
   }
 
+  .social_media_icon {
+    margin-top: 0;
+  }
+
   .recent_works {
     padding: 100px 100px 80px 100px;
     margin: 0;
@@ -881,6 +887,56 @@ li {
     height: 330px;
   }
 
+  .contact_me_form {
+    margin: 0 0 0 20px;
+    text-align: center;
+    padding-top: 20px;
+    opacity: 1;
+  }
+
+  .form_input_names {
+    background: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #979493;
+    width: 500px;
+    margin: auto;
+    border: none;
+    opacity: 1;
+  }
+
+  .form_input_email {
+    background: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #979493;
+    width: 500px;
+  }
+
+  .form_input_textarea {
+    background: #fbf8f7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #979493;
+    width: 500px;
+    height: 114px;
+  }
+
   .form_text {
     width: 455px;
     height: 256px;
@@ -890,6 +946,21 @@ li {
     padding-left: 100px;
   }
 
+  .get_in_touch_button {
+    align-items: center;
+    padding: 12px;
+    width: 131px;
+    height: 48px;
+    background: #f55800;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0 0 0 0;
+    border: 1px;
+  }
+
   .border_line_form1 {
     width: 1440px;
   }
@@ -897,7 +968,7 @@ li {
   .second_project {
     background-size: cover;
     background-position: center center;
-    background-image: url("images/Img\ Placeholder_projects.png");
+    background-image: url("../images/Img\ Placeholder_projects.png");
     display: flex;
     flex-direction: column;
     padding-top: 50px;
