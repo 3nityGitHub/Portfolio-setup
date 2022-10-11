@@ -113,7 +113,6 @@ li {
   background-position: right bottom;
   padding: 120px 24px;
   background-image: url("../images/illustration/Illustration.svg");
-
   background-repeat: no-repeat;
 }
 
@@ -543,7 +542,7 @@ li {
 }
 
 .contact_me_form {
-  margin: 120px 0px 0px 20px;
+  margin: 120px 0 0 20px;
   text-align: center;
   width: 327px;
   padding-top: 20px;
@@ -750,7 +749,7 @@ li {
   }
 
   .social_media_icon {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .recent_works {
@@ -889,7 +888,7 @@ li {
   }
 
   .contact_me_form {
-    margin: 0px 0px 0px 20px;
+    margin: 0 0 0 20px;
     text-align: center;
     padding-top: 20px;
     opacity: 1;
@@ -937,6 +936,7 @@ li {
     width: 500px;
     height: 114px;
   }
+
   .form_text {
     width: 455px;
     height: 256px;
@@ -957,9 +957,10 @@ li {
     flex-grow: 0;
     color: #fff;
     font-weight: 700;
-    margin-bottom: 0px 0px 0px 0px;
+    margin-bottom: 0 0 0 0;
     border: 1px;
   }
+
   .border_line_form1 {
     width: 1440px;
   }
