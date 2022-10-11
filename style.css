@@ -330,7 +330,7 @@ li {
 .first_project {
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-image: url("../images/ImgPlaceholder1.png");
   display: flex;
   flex-direction: column;
@@ -821,7 +821,7 @@ li {
   }
 
   .About_me_div {
-    background-image: url("../images/illustration/illustration-about\ me.svg");
+    background-image: url("images/illustration/About_me_img.svg");
     background-repeat: no-repeat;
     background-position: right;
     padding: 120px 0 120px 0;
