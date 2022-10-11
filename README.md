@@ -1,5 +1,5 @@
 # Portfolio-setup
-url(https://3nitygithub.github.io/Portfolio-setup/)
+[Link](https://3nitygithub.github.io/Portfolio-setup/)
 > My second project at microverse, building a personal portfolio
 
 ## Built With
