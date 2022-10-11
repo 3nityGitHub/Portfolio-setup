@@ -112,7 +112,7 @@ li {
   background: #1c1a19;
   background-position: right bottom;
   padding: 120px 24px;
-  background-image: url("../images/illustration/Illustration.svg");
+  background-image: url('images/illustration/Illustration.svg');
   background-repeat: no-repeat;
 }
 
@@ -333,7 +333,7 @@ li {
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url("../images/ImgPlaceholder1.png");
+  background-image: url('images/ImgPlaceholder1.png');
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -413,7 +413,7 @@ li {
 }
 
 .About_me_div {
-  background-image: url("../images/Frame.png");
+  background-image: url('../images/Frame.png');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -735,7 +735,7 @@ li {
     background-position: right;
     padding: 120px 0 300px 0;
     margin: 10px;
-    background-image: url("../images/illustration/Illustration-header.svg");
+    background-image: url('images/illustration/Illustration-header.svg');
     background-repeat: no-repeat;
   }
 
@@ -827,7 +827,7 @@ li {
   }
 
   .About_me_div {
-    background-image: url("images/illustration/About_me_img.svg");
+    background-image: url('images/illustration/About_me_img.svg');
     background-repeat: no-repeat;
     background-position: right;
     padding: 120px 0 120px 0;
@@ -968,7 +968,7 @@ li {
   .second_project {
     background-size: cover;
     background-position: center center;
-    background-image: url("../images/Img\ Placeholder_projects.png");
+    background-image: url('images/Img\ Placeholder_projects.png');
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -979,7 +979,7 @@ li {
   .third_project {
     background-size: cover;
     background-position: center center;
-    background-image: url("../images/ImgPlaceholder2.png");
+    background-image: url('images/ImgPlaceholder2.png');
     display: flex;
     flex-direction: column;
     padding-top: 50px;
