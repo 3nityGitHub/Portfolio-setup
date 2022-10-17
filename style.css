@@ -73,20 +73,21 @@ li {
   order: 1;
   flex-grow: 0;
 }
-  .hamburger_icon {
-    display: block;
-    cursor: pointer;
-  }
-  .nav_email_icon {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #fff;
-  }
 
+.hamburger_icon {
+  display: block;
+  cursor: pointer;
+}
+
+.nav_email_icon {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
 
 .nav_bar {
   background: #3c3a39;
@@ -114,7 +115,6 @@ li {
   order: 0;
   flex-grow: 0;
   padding: 5px;
-  
 }
 
 .main_section {
@@ -668,15 +668,13 @@ li {
 }
 
 @media screen and (min-width: 768px) {
+  .hamburger_icon {
+    display: none;
+  }
 
-.hamburger_icon {
-  display: none;
-  
-}
-
-.nav_email_icon {
-  display: block;
-}
+  .nav_email_icon {
+    display: block;
+  }
 
   .link_header {
     display: block;
