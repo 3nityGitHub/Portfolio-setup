@@ -1,3 +1,4 @@
+
 body {
   background-color: #1c1a19 !important;
   display: flex;
@@ -72,12 +73,26 @@ li {
   order: 1;
   flex-grow: 0;
 }
+  .hamburger_icon {
+    display: block;
+    cursor: pointer;
+  }
+  .nav_email_icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
 
 .nav_bar {
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 15px;
 }
 
@@ -86,6 +101,7 @@ li {
 }
 
 .name_logo {
+  width: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -97,11 +113,8 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.nav_email_icon {
-  align-self: center;
-  margin-right: 20px;
+  padding: 5px;
+  
 }
 
 .main_section {
@@ -112,7 +125,7 @@ li {
   background: #1c1a19;
   background-position: right bottom;
   padding: 120px 24px;
-  background-image: url("images/illustration/Illustration.svg");
+  background-image: url('images/illustration/Illustration.svg');
   background-repeat: no-repeat;
 }
 
@@ -333,7 +346,7 @@ li {
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url("images/ImgPlaceholder1.png");
+  background-image: url('images/ImgPlaceholder1.png');
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -413,7 +426,7 @@ li {
 }
 
 .About_me_div {
-  background-image: url("images/Frame.png");
+  background-image: url('images/Frame.png');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -655,6 +668,16 @@ li {
 }
 
 @media screen and (min-width: 768px) {
+
+.hamburger_icon {
+  display: none;
+  
+}
+
+.nav_email_icon {
+  display: block;
+}
+
   .link_header {
     display: block;
   }
@@ -705,10 +728,6 @@ li {
     height: 123px;
   }
 
-  .hamburger_icon {
-    display: none;
-  }
-
   .email_icon {
     align-self: center;
     margin-right: 20px;
@@ -735,7 +754,7 @@ li {
     background-position: right;
     padding: 120px 0 300px 0;
     margin: 10px;
-    background-image: url("images/illustration/Illustration-header.svg");
+    background-image: url('images/illustration/Illustration-header.svg');
     background-repeat: no-repeat;
   }
 
@@ -827,7 +846,7 @@ li {
   }
 
   .About_me_div {
-    background-image: url("images/illustration/About_me_img.svg");
+    background-image: url('images/illustration/About_me_img.svg');
     background-repeat: no-repeat;
     background-position: right;
     padding: 120px 0 120px 0;
@@ -968,7 +987,7 @@ li {
   .second_project {
     background-size: cover;
     background-position: center center;
-    background-image: url("images/Img\ Placeholder_projects.png");
+    background-image: url('images/Img\ Placeholder_projects.png');
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -979,7 +998,7 @@ li {
   .third_project {
     background-size: cover;
     background-position: center center;
-    background-image: url("images/ImgPlaceholder2.png");
+    background-image: url('images/ImgPlaceholder2.png');
     display: flex;
     flex-direction: column;
     padding-top: 50px;
