@@ -1,3 +1,4 @@
+
 body {
   background-color: #1c1a19 !important;
   display: flex;
@@ -72,12 +73,26 @@ li {
   order: 1;
   flex-grow: 0;
 }
+  .hamburger_icon {
+    display: block;
+    cursor: pointer;
+  }
+  .nav_email_icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+
 
 .nav_bar {
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 15px;
 }
 
@@ -86,6 +101,7 @@ li {
 }
 
 .name_logo {
+  width: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -97,11 +113,8 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.nav_email_icon {
-  align-self: center;
-  margin-right: 20px;
+  padding: 5px;
+  
 }
 
 .main_section {
@@ -413,7 +426,7 @@ li {
 }
 
 .About_me_div {
-  background-image: url('../images/Frame.png');
+  background-image: url('images/Frame.png');
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -655,6 +668,16 @@ li {
 }
 
 @media screen and (min-width: 768px) {
+
+.hamburger_icon {
+  display: none;
+  
+}
+
+.nav_email_icon {
+  display: block;
+}
+
   .link_header {
     display: block;
   }
@@ -703,10 +726,6 @@ li {
   .header_description {
     width: 566px;
     height: 123px;
-  }
-
-  .hamburger_icon {
-    display: none;
   }
 
   .email_icon {
