@@ -9,27 +9,28 @@
   </head>
   <body>
     <header>
+     
       <nav class="nav_bar">
         <a href="#" class="nav_branding">RAPHEAL OKONTA</a>
         <ul class="nav_menu">
           <li class="nav_item">
-            <a href="#" class="nav_link">Portfolio</a>
+            <a href="#recent_works_link" class="nav_link">Portfolio</a>
               <hr class="hr-line_break3">
           </li>
           <li class="nav_item">
-            <a href="#" class="nav_link">About </a>
+            <a href="#aboutmeProject" class="nav_link">About </a>
           <hr class="hr-line_break3">
                 
           </li>
           <li class="nav_item">
-            <a href="#" class="nav_link">contact</a>
+            <a href="#form_container_link" class="nav_link">contact</a>
             <hr class="hr-line_break3">
           </li>
-               <img
+              <a href="#form_container_link"><img
             class="email_icon"
             src="./images/Disabled.png"
             alt="email_button"
-          />
+          /></a> 
         </ul>
         <div class="hamburger_icon">
           <span class="nav_email_icon"></span>
@@ -37,6 +38,23 @@
           <span class="nav_email_icon"></span>
         </div>
       </nav>
+       <div class="mobile_nav_container">
+         <ul class="nav_menu2">
+          <li class="nav_item2">
+            <a href="#recent_works_link" class="nav_link">Portfolio</a>
+              <hr class="hr-line_break3">
+          </li>
+          <li class="nav_item2">
+            <a href="#aboutmeProject" class="nav_link">About </a>
+          <hr class="hr-line_break3">
+                
+          </li>
+          <li class="nav_item2">
+            <a href="#form_container_link" class="nav_link">contact</a>
+          <hr class="hr-line_break3">
+          </li>
+        
+      </div>
     </header>
     <section class="main_section">
       <div class="main_section_div">
@@ -70,7 +88,7 @@
     </section>
 
     <section class="recent_works">
-        <div class="recent_work_header_row">
+        <div id="recent_works_link" class="recent_work_header_row">
             <h2 class="recent_works_header">My Recent Works</h2>
             <img class="work_image_line" src="./images/Vector.svg" alt="image_line">
         </div>
@@ -223,7 +241,7 @@
 
     </section>
      <section class="About_me_section">
-        <div class="About_me_div">
+        <div id="aboutmeProject" class="About_me_div">
             <div class="About_me_content">
                 <h2 class="About_me_title">About Me</h2>
                 <p class="About_me_text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -264,7 +282,7 @@
     </section>
 
     <section class="form_section">
-      <div class="form_container">
+      <div id="form_container_link" class="form_container">
         <h3 class="form_text">I'm always interested in hearing about new projects, so if you'd like to chat please get in</h2>
     
         <form class="contact_me_form" action="https://formspree.io/f/xoqbwpby" method="post">
