@@ -1,4 +1,105 @@
 
+
+li {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav_bar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+  padding-bottom: 10px;
+  margin-right: 50px;
+}
+.nav_branding {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+.nav_link {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 10px;
+  transition: 0.7s ease;
+}
+
+.email_icon{
+  margin-right: 20px;
+}
+.nav_link:hover {
+  color: blueviolet;
+}
+.hamburger_icon {
+  display: none;
+  cursor: pointer;
+}
+.nav_email_icon {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hamburger_icon {
+    display: block;
+  }
+  .hamburger_icon.active .nav_email_icon:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger_icon.active .nav_email_icon:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger_icon.active .nav_email_icon:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav_menu {
+    position: fixed;
+    left: -180%;
+    top: 70px;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    background-color: #3c3a39;
+    margin-left: -45px;
+  }
+  .nav_item {
+    margin: 16px 0;
+  }
+  .nav_menu.active {
+    left: 0;
+  }
+
+  .nav_branding {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  margin-bottom: -10px;
+}
+}
+
 body {
   background-color: #1c1a19 !important;
   display: flex;
@@ -31,6 +132,7 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-bottom: 100px;
 }
 
 h3 {
@@ -72,21 +174,18 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-bottom: 45px;
 }
 
-.hamburger_icon {
-  display: block;
-  cursor: pointer;
+.link_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
-.nav_email_icon {
+.hamburger_Icon {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #fff;
 }
 
 .nav_bar {
@@ -94,28 +193,13 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
 }
 
-.nav_header_link {
+.nav_Header_Link {
   display: none;
 }
 
-.name_logo {
-  width: 200px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  text-decoration: none;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  padding: 5px;
-}
 
 .main_section {
   display: flex;
@@ -668,19 +752,13 @@ li {
 }
 
 @media screen and (min-width: 768px) {
-  .hamburger_icon {
+  .hamburger_Icon {
     display: none;
+    cursor: pointer;
   }
 
-  .nav_email_icon {
-    display: block;
-  }
 
-  .link_header {
-    display: block;
-  }
-
-  .nav_header_link {
+  .nav_Header_Link {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -698,37 +776,26 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 26px;
+    padding: 0px;
     margin: 0;
   }
 
   a {
-    text-align: center;
+    align-items: center;
     transition: all 0.5s ease-out;
-    padding-top: 5px;
+    padding-top: 3px;
   }
 
   a:hover,
   a:focus {
-    background-color: rgb(253, 211, 211);
+    background-color: #979493;
     color: #333;
   }
 
-  .name_logo {
-    display: flex;
-    flex-direction: row;
-    margin-left: 90px;
-    margin-bottom: 10px;
-  }
 
   .header_description {
     width: 566px;
     height: 123px;
-  }
-
-  .email_icon {
-    align-self: center;
-    margin-right: 20px;
   }
 
   .main_section_div {
@@ -1086,7 +1153,7 @@ li {
   h1,
   h2 {
     animation-duration: 3s;
-    animation-name: slidein, easein;
+    animation-name: slidein, ease-in;
   }
 
   @keyframes slidein {
