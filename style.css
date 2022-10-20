@@ -102,7 +102,7 @@ a {
   }
 
   .nav_menu2 {
-    padding: 0;
+    padding: 24px 34px;
     left: -180%;
     top: 70px;
     font-size: 32px;
@@ -110,6 +110,14 @@ a {
     height: 100%;
     gap: 0;
     transition: 0.5s;
+    align-items: center;
+  }
+
+  .nav_menu2 li {
+    width: 82%;
+    border-bottom: 2px solid #dfe1e6;
+    padding: 24px 4px 30px;
+    align-items: center;
   }
 
   .nav_bar {
@@ -134,8 +142,7 @@ a {
   }
 
   .nav_link {
-    margin-left: 80px;
-    padding-block: 15px;
+    margin-left: 10px;
   }
 
   .nav_item {
@@ -164,13 +171,6 @@ a {
 
   .nav_branding.active {
     opacity: 0;
-  }
-
-  .hr-line_break3 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 0.1px;
   }
 }
 
