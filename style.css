@@ -115,7 +115,7 @@ a {
 
   .nav_menu2 li {
     width: 82%;
-    border-bottom: 2px solid #dfe1e6;
+    border-bottom: 1px solid #dfe1e6;
     padding: 24px 4px 30px;
     align-items: center;
   }
@@ -142,13 +142,15 @@ a {
   }
 
   .nav_link {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .nav_item {
     margin-left: -120px;
     font-size: 32px;
     padding: 0;
+    color: #FFF5E1;
+    font-weight: 700;
   }
 
   .email_icon {
